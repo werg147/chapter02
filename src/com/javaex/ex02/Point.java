@@ -5,19 +5,24 @@ public class Point {
 	private int x;
 	private int y;
 	
-	//x이름입력
-	public void setX(String p1) {
-		p1 = p1;
-	}
-	//x이름읽기
-	public String getX() {
-		return p1;
+	//x값 입력
+	public void setXval (int xv) {
+		x = xv;
 	}
 	
+	//x값 읽기
+	public int getXval() {
+		return x;
+	}
 	
-	//p1입력
+	//y값 입력
+	public void setYval (int yv) {
+		y = yv;
+	}
 	
-	//p1읽기
-	
+	//y값 읽기
+	public int getYval() {
+		return y;
+	}
 	
 }
