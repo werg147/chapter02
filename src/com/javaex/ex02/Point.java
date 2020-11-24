@@ -6,23 +6,28 @@ public class Point {
 	private int y;
 	
 	//x값 입력
-	public void setXval (int xv) {
+	public void setX (int xv) {
 		x = xv;
 	}
 	
 	//x값 읽기
-	public int getXval() {
+	public int getX() {
 		return x;
 	}
 	
 	//y값 입력
-	public void setYval (int yv) {
+	public void setY (int yv) {
 		y = yv;
 	}
 	
 	//y값 읽기
-	public int getYval() {
+	public int getY() {
 		return y;
+	}
+	
+	//출력(일반메소드)
+	public void showInfo() {
+		System.out.println("점[x= " + x + ", y= " + y + "]을 그렸습니다.");
 	}
 	
 }

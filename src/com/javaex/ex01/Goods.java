@@ -36,7 +36,10 @@ public class Goods {
 		return price;
 	}
 	
-	
+	//출력(일반메소드)
+	public void showInfo() {
+		System.out.println("상품이름: " + name + ", 가격: " + price);
+	}
 
 	
 	//name 읽어주는 기능

@@ -14,29 +14,29 @@ public class PointApp {
 		//캡슐화
 		//메소드 만들기
 		
-		//p1 p2 p3 p4
+		//p1 x,y   p2 x,y 
 		
 		//p1
-		p1.setXval(5);
-		int p1x = p1.getXval();
+		p1.setX(5);
+		int p1x = p1.getX();
 		
+		p1.setY(5);
+		int p1y = p1.getY();
 		
 		//p2
-		p2.setYval(5);
-		int p2y = p2.getYval();
+		p2.setX(10);
+		int p2x = p2.getX();
 		
-		//p3
-		p3.setXval(10);
-		int p3x = p3.getXval();
-		
-		//p4
-		p4.setYval(23);
-		int p4y = p4.getYval();
+		p2.setY(23);
+		int p2y = p2.getY();
 		
 		//출력
-		System.out.println("점 [x=" + p1x + ", y=" + p2y + "]을 그렸습니다.");
-		System.out.println("점 [x=" + p3x + ", y=" + p4y + "]을 그렸습니다.");
+		//System.out.println("점 [x=" + p1x + ", y=" + p1y + "]을 그렸습니다.");
+		//System.out.println("점 [x=" + p2x + ", y=" + p2y + "]을 그렸습니다.");
 		
+		p1.showInfo();
+		p2.showInfo();
+
 	}
 
 }
