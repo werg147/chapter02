@@ -6,8 +6,6 @@ public class PointApp {
 		
 		Point p1 = new Point();
 		Point p2 = new Point();
-		Point p3 = new Point();
-		Point p4 = new Point();
 		
 		//p1.x = 2;
 		//p1.y = 2;
