@@ -26,7 +26,7 @@ public class Point {
 	}
 	
 	//출력(일반메소드)
-	public void showInfo() {
+	public void draw() {
 		System.out.println("점[x= " + x + ", y= " + y + "]을 그렸습니다.");
 	}
 	

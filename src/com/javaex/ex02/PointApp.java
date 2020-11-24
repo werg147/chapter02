@@ -32,8 +32,8 @@ public class PointApp {
 		//System.out.println("점 [x=" + p1x + ", y=" + p1y + "]을 그렸습니다.");
 		//System.out.println("점 [x=" + p2x + ", y=" + p2y + "]을 그렸습니다.");
 		
-		p1.showInfo();
-		p2.showInfo();
+		p1.draw();
+		p2.draw();
 
 	}
 
