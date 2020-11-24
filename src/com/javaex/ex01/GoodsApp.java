@@ -6,7 +6,6 @@ public class GoodsApp {
 		
 		Goods camera = new Goods();
 		Goods computer = new Goods();
-		Goods cup = new Goods();
 		
 		
 		/*캡슐화 때문에 사용불가
@@ -59,6 +58,10 @@ public class GoodsApp {
 		int computerPrice = computer.getPrice();
 		//System.out.println(computerPrice);
 		
+		Goods cup = new Goods("머그컵", 2000);
+		
+		
+		/*
 		cup.setName("머그컵");
 		String cupName = cup.getName();
 		//System.out.println(cupName);
@@ -66,6 +69,8 @@ public class GoodsApp {
 		cup.setPrice(2000);
 		int cupPrice = cup.getPrice();
 		//System.out.println(cupPrice);
+		*/
+
 		
 		//출력
 		/*

@@ -9,25 +9,35 @@ public class Goods {
 	private String name;
 	private int price;
 
-	
-	
-	
+
 	//생성자
 	
+	public Goods() {
+		//메모리에 올린다
+	}
+	
+	public Goods(String name, int price) {
+		this.name = name;
+		this.price = price;
+		
+	}
+	
+	
+	
+	
 	//메소드 -겟터/세터
-	public void setName(String n) {
-	name = n; //"니콘" "LG그램" "머그컵"
+	public void setName(String name) {
+		this.name = name; //"니콘" "LG그램" "머그컵"
 	}
 			
 	//getName() 이름읽기
 	public String getName() {
-		
 		return name;
 	}
 	
 	//setPrice() 가격등록
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	
