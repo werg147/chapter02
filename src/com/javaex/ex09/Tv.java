@@ -8,7 +8,7 @@ public class Tv {
 	private boolean power;
 	
 	//생성자
-	public Tv() {}
+	//public Tv() {}
 	
 	public Tv(int channel, int volume, boolean power) {
 		this.channel = channel;
@@ -19,16 +19,34 @@ public class Tv {
 	
 	//메소드(getter,setter 작성하지않음)
 	
+	//채널
 	public void channel(int channel) {
+		if(channel>=255) {
+			this.channel = 225;
+		} else if(channel<1) {
+			this.channel = 1;
+		}
+	}
+	
+	public void channel(boolean up) {
 		
 	}
 	
+	//볼륨
 	public void volume(int volume) {
-		
+		if(volume<0) {
+			this.volume = 0;
+		} else if(volume>=100) {
+			this.volume = 100;
+		}
 	}
 	
-	public void power(boolean power) {
-		
+	
+	//파워
+	public void power(boolean on) {
+		if(on==true) {
+		this.power = on;
+		}
 	}
 	
 
