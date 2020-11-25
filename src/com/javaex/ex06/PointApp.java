@@ -2,13 +2,19 @@ package com.javaex.ex06;
 
 public class PointApp {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		
 		Point p01 = new Point();
 		
 		p01.setX(3);
 		p01.setY(5);
 		
+		/*
+		String str = p01.toString();
+		System.out.println(str);
+		*/
+		
+		//System.out.println(p01.toString());
 		p01.draw();
 		
 		
@@ -17,7 +23,7 @@ public class PointApp {
 		
 		p02.draw(true);
 		p02.draw(false);
-
+		
 	}
 
 }
