@@ -17,7 +17,14 @@ public class Tv {
 	}
 	
 	
-	//메소드(getter,setter 작성하지않음)
+	//메소드(setter 작성하지않음)
+	public int getChannel() {
+		return channel;
+	}
+	
+	public int getVolume() {
+		return volume;
+	}
 	
 	//채널
 	public void channel(int channel) {
