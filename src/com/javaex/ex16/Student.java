@@ -15,16 +15,16 @@ public class Student extends Person {
 	    this.schoolName = schoolName;
 	}
 
-	public String getSchoolName() {
-		return schoolName;
-	}
 
 	//메소드 g/s
 	public void setSchoolName(String schoolName) {
 		this.schoolName = schoolName;
 	}
 
-
+	public String getSchoolName() {
+			return schoolName;
+		}
+	
 	
 	//메소드 일반	
 	/*
